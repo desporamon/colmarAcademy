@@ -1,0 +1,520 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px; 
+}
+
+
+body {
+    margin: 0;
+}
+
+/* NAVBAR */
+/* default flex direction: row */
+.logo {
+    display: flex;
+    height: 32px;
+    align-items: center; 
+}
+
+#academy {
+    color: #9f9b9b; 
+}
+
+#colmar {
+    color: #01161E;
+}
+
+.logo h5 {
+    font-size: 18px;
+}
+
+.title-top {
+    padding: 0;
+}
+
+header {
+    display: flex;
+    height: 64px;
+    padding-left: 24px;
+    padding-right: 24px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+nav a {
+    margin-left: 16px;
+    color: #4F4F4F;
+    font-weight: 550; 
+    text-decoration: none;
+}
+
+.navMobile {
+    display: none;
+}
+
+/* SECTION 1 DESKTOP */
+.sectionone {
+    display: flex;
+    background-color: gainsboro;
+    padding: 32px 24px;
+}
+
+.sectionone-content {
+    padding-left: 24px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectionone-content h1, h4 {
+    margin: 0;
+} 
+
+.sectionone-content h1 {
+    font-size: 30px;
+    font-weight: 700; /* h1 is bold*/
+    padding-bottom: 16px;
+    color: #4F4F4F;   
+}
+
+.sectionone-content h4 {
+    font-size: 20px;
+    padding-bottom: 16px;
+    color: #4F4F4F;  
+}
+
+.sectionone-content a {
+    display: block;
+    background-color: rgb(51, 51, 51);
+    width: 60%;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.sectionone-content a:hover {
+    background-color: lightskyblue;
+}
+
+.sectionone img {
+    width: 60%;
+}
+
+/* SECTION TWO LEFT DESKTOP */
+
+.sectiontwo {
+    display: flex; 
+    background: #ffffff; 
+    padding: 32px 24px; 
+}
+
+.sectiontwo-left {
+    display: flex;
+    flex-direction: column; 
+    width: 60%;
+}
+
+.sectiontwo-left img, h2, p {
+    margin: 0;
+} 
+
+.sectiontwo-left img {
+    padding-bottom: 32px;  
+}
+
+.sectiontwo-left h2 {
+    font-size: 24px;
+    padding-bottom: 24px;
+    color: #4F4F4F;  
+}
+
+.sectiontwo-left p {
+    color: #989898
+}
+
+.sectiontwo-left h5 {
+    color: #4F4F4F; 
+}
+
+/* SECTION TWO RIGHT DESKTOP */
+
+.sectiontwo-right {
+    display: flex; 
+    flex-direction: column; 
+    margin-left: 50px; 
+}
+
+.minipic-mobile {
+    display: none; 
+}
+
+.minipic-desktop {
+    width: 35%; 
+}
+
+.miniinfo-right {
+    display: flex;
+}
+
+.orientation {
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+
+.campus, .guestlecture {
+    padding-left: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.supermini-text {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    padding-left: 16px;   
+}
+
+.supermini-text h3 {
+    font-size: 22px;
+    color: #4F4F4F;
+}
+
+.supermini-text p {
+    color: #989898; 
+    margin: 0;
+    padding-bottom: 8px; 
+}
+
+.supermini-text a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+.guestlecture {
+    background-color: gainsboro;
+}
+
+/* SECTION THREE DESKTOP */
+
+.sectionthree {
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    padding: 32px 72px; 
+    margin: 0; 
+}
+
+.sectionthree h2 {
+    font-size: 24px;
+    color: #4F4F4F; 
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.toplearning-courses {
+    display: flex;
+    margin-bottom: 32px; 
+    justify-content: space-around;
+}
+
+.bottomlearning-courses {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.coursetype {
+    background-color: #ffffff;
+}
+
+.coursetype img {
+    width: 100%; 
+}
+
+.coursetype h4 {
+    font-size: 20px;
+    color: #4F4F4F; 
+    margin: 0; 
+    padding-left: 16px;
+    padding-top: 16px; 
+}
+
+.courses {
+    margin: 0;
+    padding-left: 16px;
+    padding-bottom: 16px; 
+    color: #989898; 
+}
+
+.course-description {
+    margin: 0;
+    padding-left: 16px; 
+    padding-bottom: 24px; 
+    color: #989898; 
+}
+
+/* SECTION FOUR LEFT DESKTOP */
+.thesis-title {
+    font-size: 24px;
+    color: #4F4F4F; 
+    margin-top: 32px; 
+    text-align: center;    
+}
+
+.sectionfour {
+    display: flex;
+    background-color: #ffffff; 
+    padding: 32px 24px; 
+    margin: 0; 
+}
+
+.sectionfour-left, .sectionfour-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionfour-left {
+    margin: 0;
+    padding: 0px 24px 24px 24px;
+    width: 60%; 
+}
+
+
+.miniinfo {
+    display: flex;
+    flex-direction: column; 
+}
+
+.sectionfour-left h3 {
+    font-size: 22px;
+    color: #4F4F4F; 
+    margin-bottom: 15px;
+}
+
+.sectionfour-left p {
+    color: #989898; 
+    margin: 0;
+}
+
+/* SECTION FOUR RIGHT DESKTOP */
+
+.minifour-right {
+    display: flex; 
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+    width: 120%;     
+}
+
+.thesis-pic {
+    width: 35%; 
+}
+
+.miniinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;     
+}
+
+.miniinfo h3 {
+    font-size: 22px;
+    color:#4F4F4F;
+    margin-left: 16px;       
+}
+
+.miniinfo p {
+    font-size: 16px;
+    color: #989898; 
+    margin-left: 16px;
+}
+
+.fisma {
+    background-color: gainsboro;
+}
+
+/* FOOTER DESKTOP */
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: #989898; 
+}
+
+footer p {
+    margin: 0;
+    width: 60%;
+    padding: 16px 24px;
+    color: #989898; 
+}
+
+
+@media screen and (max-width: 720px){
+
+    /* SECTION ONE MOBILE - NO HEADER */
+    .logo {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-between;
+    }
+
+    .navDesktop {
+        display: none;
+    }
+
+    .navMobile {
+        display: block;
+    }
+
+    .sectionone {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .sectionone img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .sectionone-content {
+        width: 100%; 
+        padding: 16px 0 32px 0;
+        text-align: center;
+    }
+
+    .section-one h1 {
+        padding: 0;
+        margin-bottom: 16px;  
+        text-align: center;
+    }
+
+    .section-one h4 {
+        padding: 0;
+        margin-bottom: 8px;  
+        text-align: center;
+    }
+
+    .sectionone-content a {
+        width: 70%;
+        text-align: center;
+        margin: auto;    
+    }
+
+    .sectionone-content h3 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    /* SECTION TWO MOBILE */
+    .sectiontwo-left {
+        display: none;
+    }
+
+    .minipic-desktop {
+        display: none;
+    }
+
+    .minipic-mobile {
+        display: block; 
+    }
+
+    .sectiontwo-right {
+        width: 100%;    
+        margin: 0;
+        padding: 0;
+        align-items: center;
+    }
+
+    .miniinfo-right {
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 16px; 
+    }
+
+    .supermini-text a {
+        padding: 0; 
+        margin-bottom: 32px;
+    }
+
+    .supermini-text h3 {
+        padding: 0;
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
+
+    /* SECTION THREE MOBILE */
+    .sectionthree {
+        background-color: #ffffff;
+    }
+
+    .toplearning-courses, .bottomlearning-courses {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .coursetype img, .coursetype p {
+        display: none; 
+    }
+
+    .coursetype {    
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        width: 100%; 
+    }
+
+    .sectionthree h2 {
+        width: 100%;  
+        padding: 0;   
+    }
+
+    .sectionthree h4 {
+        background-color: gainsboro;
+        width: 100%; 
+        margin: 16px auto;
+        padding-top: 16px;
+        padding-bottom: 16px; 
+    }
+
+    /* SECTION FOUR MOBILE */
+    .sectionfour-left h3, .sectionfour-left p, .sectionfour-right {
+        display: none; 
+    }
+
+    .sectionfour-left {
+        width: 100%
+    }
+
+    /* FOOTER */
+
+    footer p {
+        width: 100%;
+        padding: 0;  
+    } 
+
+    .navweb {
+        font-size: 16px;
+        color: #4F4F4F;
+        font-weight: 100;
+    }
+}
+
+
+
+
+
+
+
