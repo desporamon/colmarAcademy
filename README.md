@@ -1,4 +1,4 @@
-# webassessment
+#A responsive website built using plain HTML and CSS
 Code Written for JFSD Web Assessment - Desmond Chua Yew Guan
 
 ●	What did you like about this project?
