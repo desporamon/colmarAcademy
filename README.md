@@ -1,5 +1,5 @@
 #A responsive website built using plain HTML and CSS
-Code Written for JFSD Web Assessment - Desmond Chua Yew Guan
+
 
 ●	What did you like about this project?
 This assessment really test my understanding on the core concepts in HTML and CSS taught in the past few weeks. It helps to reinforce the concepts taught in class. It gives me a sense of accomplishment that I can really write code from scratch given that just a few days ago I was still really not confident and doubting myself. I think the codes written cover all the core concepts in class. I am also very thankful that there are specifications/ template given. When we were given the Colmar assignment for the header and section one initially, I panicked.. though I can get the flex right, I just can't get the formatting of the page right.. After first round of clarification with Jean with the refresher on mediaquery, I can finally get the page to load up correctly on live server with the codes I wrote. 
