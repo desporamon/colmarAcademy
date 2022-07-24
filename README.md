@@ -1,4 +1,4 @@
-#A responsive website built using plain HTML and CSS
+# A responsive website built using plain HTML and CSS
 
 
 ●	What did you like about this project?
